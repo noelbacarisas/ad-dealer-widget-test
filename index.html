@@ -8,31 +8,24 @@
     <meta property="og:title" content="Not AutoDeal | Widget Test" />
     <meta property="og:description" content="" />
 </head>
-<body>
-
-    <link rel="stylesheet" href="https://www.autodeal1.sirqolabs.com/dist/dealerwidget/ratingwidget.min.css">
-    <div id="autodeal-widget-main-wrapper" style="margin-left: auto; margin-right: auto;">
-        <section class="ad-content-wrapper">
-            <a href="https://www.autodeal1.sirqolabs.com/" target="_blank">
-                <img src="https://www.autodeal1.sirqolabs.com/images/essentials/logo_white.svg" alt="AutoDeal.com.ph logo" class="ad-logo">
-            </a>
-        </section>
+<body class="">
+    <!-- <link rel="stylesheet" href="https://www.autodeal.dev/stylesheets/autodeal-widget.css"> -->
+    <link rel="stylesheet" href="https://www.autodeal4.sirqolabs.com/stylesheets/autodeal-widget.css">
+    <div class="autodeal">
+        <section id="autodeal-widget-main-wrapper" class="wide">
+    		<div class="ad-content-wrapper wide">
+                <a href="https://www.autodeal4.sirqolabs.com/" target="_blank" class="ad-logo">
+                    <img src="https://www.autodeal4.sirqolabs.com/images/essentials/logo_white.svg" alt="AutoDeal.com.ph logo">
+                </a>
+            </section>
+        </div>
     </div>
-    <script src="https://www.autodeal1.sirqolabs.com/dist/dealerwidget/ratingwidget.min.js"></script>
-    <!-- <script src="https://www.autodeal.dev/dist/dealerwidget/ratingwidget.min.js"></script> -->
+    <!-- <script src="https://www.autodeal.dev/app_dev.php/widgets/dealer-rating-js?key=66"></script> -->
+    <script src="https://www.autodeal4.sirqolabs.com/app_dev.php/widgets/dealer-rating-js?key=66"></script>
     <script>
         (function(widget){
-            widget.load({'widgetKey': 66});
+            widget.load();
         }(AdDealerWidget));
-        //var script = document.createElement('script');
-        // script.onload = function () {
-        //     (function(widget){
-        //         widget.load({'widgetKey': 66});
-        //     }(AdDealerWidget));
-        // };
-        //script.src = 'https://www.autodeal1.sirqolabs.com/dist/dealerwidget/ratingwidget.min.js';
-        //script.src = 'https://www.autodeal1.sirqolabs.com/dist/dealerwidget/js/dealer_widget_66_20191202.js';
-        //document.head.appendChild(script);
     </script>
 </body>
 </html>
